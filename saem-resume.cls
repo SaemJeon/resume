@@ -80,6 +80,7 @@
   \headerName{#1}
   \headerAddress{#2}
   \headerContact{#3}{#4}{#5}{#6}{#7}
+  \smallskip
 }
 
 % -------------------------------------------------------------------------
@@ -87,7 +88,7 @@
 % -------------------------------------------------------------------------
 %% Section
 \renewcommand{\section}[1]{
-  {\noindent\raggedright\fontsize{16pt}{1em}\bfseries\bodyfont #1\hrulefill}
+  {\noindent\raggedright\fontsize{16pt}{1em}\bfseries\bodyfont #1 \hrulefill}
   \medskip
 }
 
