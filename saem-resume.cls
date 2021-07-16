@@ -108,7 +108,7 @@
 % Education
 % -------------------------------------------------------------------------
 \newcommand{\education}[7]{
-\noindent\begin{tabularx}{\textwidth}{@{\extracolsep{\fill}\hspace{1mm}\vspace{1mm}}
+\noindent\begin{tabularx}{\textwidth}{@{\extracolsep{\fill}\hspace{1mm}\vspace{0.5mm}}
   >{\raggedright\arraybackslash}X 
   >{\raggedleft\arraybackslash}X}
   \entryPosition{#1} & \entryDate{#2} \\
@@ -123,7 +123,7 @@
 % Skills
 % -------------------------------------------------------------------------
 \newcommand{\skills}[6]{
-\noindent\begin{tabularx}{\textwidth}{@{\extracolsep{\fill}\hspace{1mm}\vspace{1mm}}
+\noindent\begin{tabularx}{\textwidth}{@{\extracolsep{\fill}\hspace{1mm}\vspace{0.4mm}}
   >{\raggedright\arraybackslash\hsize=.2\hsize\linewidth=\hsize}X 
   >{\raggedright\arraybackslash}X}
   \entryPosition{#1} & \entryDescription{#2} \\
@@ -132,6 +132,10 @@
   \\[-4mm]
  \end{tabularx}
 }
+
+% \newcommand{\skills}[2]{
+%   \indent\hspace{-4mm}\entryPosition{#1} \quad \entryDescription{#2} \hfill
+% }
 
 % -------------------------------------------------------------------------
 % Experience
